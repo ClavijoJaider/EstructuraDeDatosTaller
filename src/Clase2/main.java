@@ -1,2 +1,4 @@
-package Clase2;public class main {
+package Clase2;
+
+public class main {
 }
