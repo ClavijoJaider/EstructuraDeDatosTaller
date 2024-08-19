@@ -1,6 +1,8 @@
+package Clase1;
+
 import java.util.Scanner;
 
-public class Main {
+public class Listas {
     private static Scanner scanner = new Scanner(System.in);
     private static String[] names = new String[5];
     private static int nameCount = 0;
