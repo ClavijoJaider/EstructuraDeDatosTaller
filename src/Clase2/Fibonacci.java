@@ -4,24 +4,21 @@ public class Fibonacci
 {
     public static void main(String[] args)
     {
-        metodoFibo(5); // Ejemplo de llamada con 5 números
+        metodoFibo(); // Ejemplo de llamada con 5 números
     }
 
-    public static void metodoFibo(int n)
+    public static void metodoFibo()
     {
-        for(int  i = 0; i < n; i++)
+        int numero1 = 0;
+        int numero2 = 1;
+        int suma = 0;
+        for(int  i = 0; i < 10; i++)
         {
-            int numero1 = 0;
-            int numero2 = 1;
-            int suma = 0;
-            for (int j = 0; j < i ; j++)
-            {
-                suma = i + j;
-                System.out.println("Serie Fibonacci: "+ "i = "  + i + "- " + numero1 + "+" + numero2 + "= " + suma );
+                suma = numero1+numero2;
+                System.out.println("Serie Fibonacci: "+ "i = "  + i + "| " + numero1 + "+" + numero2 + "= " + suma );
                 numero1 = numero2;
                 numero2 = suma;
 
-            }
         }
 
     }
