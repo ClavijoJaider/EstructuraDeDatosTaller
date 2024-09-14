@@ -1,2 +1,4 @@
-package Clase5;public class ListasCirculares {
+package Clase5;
+
+public class ListasCirculares {
 }
